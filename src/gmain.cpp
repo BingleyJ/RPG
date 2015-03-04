@@ -6,10 +6,6 @@
  */
 #include "gmain.h"
 
-<<<<<<< HEAD
-
-=======
->>>>>>> c32a280376fe777d22d7847556466941f3018fcb
 using std::cout;
 using std::endl;
 
@@ -27,22 +23,12 @@ gmain::~gmain() {
 }
 
 void gmain::gameloop(void) {
-<<<<<<< HEAD
-
 
 	while (!quit && SDLsetup->getmainevent()->type != SDL_QUIT) {
 		SDLsetup->begin();
 
 		UI->pollCommand();
 		cout << UI->getCommand() << endl;
-=======
-	UserInput UI = new UserInput();
-	while (!quit && SDLsetup->getmainevent()->type != SDL_QUIT) {
-		SDLsetup->begin();
-
-		UI.pollCommand();
-		cout << UI.getCommand() << endl;
->>>>>>> c32a280376fe777d22d7847556466941f3018fcb
 		//All game logic goes here
 		//Draw something
 		//Update Something

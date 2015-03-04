@@ -5,7 +5,7 @@
 // Copyright   : Your copyright notice
 // Description : SDL2/C++ RPG
 //============================================================================
-#pragma once
+
 #include <iostream>
 
 #include "gmain.h"
