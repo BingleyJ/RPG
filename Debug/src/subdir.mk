@@ -6,17 +6,20 @@
 CPP_SRCS += \
 ../src/RPG.cpp \
 ../src/gmain.cpp \
-../src/sdlsetup.cpp 
+../src/sdlsetup.cpp \
+../src/userInput.cpp 
 
 OBJS += \
 ./src/RPG.o \
 ./src/gmain.o \
-./src/sdlsetup.o 
+./src/sdlsetup.o \
+./src/userInput.o 
 
 CPP_DEPS += \
 ./src/RPG.d \
 ./src/gmain.d \
-./src/sdlsetup.d 
+./src/sdlsetup.d \
+./src/userInput.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -9,6 +9,7 @@
 #define GMAIN_H_
 #include <SDL2/SDL.h>
 #include "sdlsetup.h"
+#include "userInput.h"
 
 class gmain {
 public:
@@ -20,6 +21,6 @@ private:
 	int screenWidth;
 	int screenHieght;
 	sdlsetup* SDLsetup;
-
+	UserInput* UI;
 };
 #endif /* GMAIN_H_ */
